@@ -21,7 +21,6 @@ function main() {
   const ar = readLine()
     .split(' ')
     .map((arTemp) => parseInt(arTemp, 10));
-  console.log('aVeryBigSum :: ar ::', ar);
 
   return aVeryBigSum(ar);
 }

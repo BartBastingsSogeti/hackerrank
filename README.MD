@@ -82,3 +82,39 @@ HackerLand University has the following grading policy:
 Sam is a professor at the university and likes to round each student's  according to these rules:
 - If the difference between the ``grade`` and the next multiple of ``5`` is less than ``3``, round ``grade`` up to the next multiple of ``5``.
 - If the value of ``grade`` is less than ``38``, no rounding occurs as the result will still be a failing grade.
+
+## Apple and Orange
+
+Sam's house has an apple tree and an orange tree that yield an abundance of fruit. Using the information given below, determine the number of apples and oranges that land on Sam's house.
+
+In the diagram below:
+
+* The red region denotes the house, where ``s`` is the start point, and ``t`` is the endpoint. The apple tree is to the left of the house, and the orange tree is to its right.
+* Assume the trees are located on a single point, where the apple tree is at point ``a``, and the orange tree is at point ``b``.
+* When a fruit falls from its tree, it lands ``d`` units of distance from its tree of origin along the ``x``-axis. *A negative value of ``d`` means the fruit fell ``d`` units to the tree's left, and a positive value of ``d`` means it falls ``d`` units to the tree's right. *
+
+Given the value of ``d`` for ``m`` apples and ``n`` oranges, determine how many apples and oranges will fall on Sam's house (i.e., in the inclusive range ``[s-t]``)?
+
+For example, Sam's house is between ``s = 7`` and ``t = 10``. The apple tree is located at  and the orange at ``a = 4``. There are ``b = 12`` apples and ``m = 3`` oranges. Apples are thrown ``apples = [2,3,-4]`` units distance from ``a``, and ``n = 3`` units distance. Adding each apple distance to the position of the tree, they land at ``[4+2,4+3,4+-4] = [6,7,0]``. Oranges land at ``[12+3,12+-2,12+-4] = [15,10,8]``. One apple and two oranges land in the inclusive range ``7 - 10`` so we print
+
+```
+1
+2
+```
+
+## Number Line Jumps
+
+There will be two arrays of integers. Determine all integers that satisfy the following two conditions:
+
+1. The elements of the first array are all factors of the integer being considered
+2. The integer being considered is a factor of all elements of the second array
+
+These numbers are referred to as being between the two arrays. Determine how many such numbers exist.
+
+**Example**
+``a = [2,6]``
+``b = [24,36]``
+
+There are two numbers between the arrays: ``6`` and ``12``.
+``6%2 = 0``, ``6%6 = 0``, ``0,24%6 = 0`` and ``36%6 = 0`` for the first value.
+``12%2 = 0``, ``12%6 = 0`` and ``24%12 = 0``, ``36%12 = 0`` for the second value. Return ``2``.

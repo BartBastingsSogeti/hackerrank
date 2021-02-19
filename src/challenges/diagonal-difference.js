@@ -15,20 +15,15 @@ function diagonalDifference(arr) {
   const primaryDiagonal = arr
     .map((value, index) => value[index])
     .reduce((a, b) => a + b, 0);
-  console.log('diagonalDifference :: primaryDiagonal ::', primaryDiagonal);
-
   const secondaryDiagonal = arr
     .map((value, index, array) => value[array.length - (1 + index)])
     .reduce((a, b) => a + b, 0);
-  console.log('diagonalDifference :: secondaryDiagonal ::', secondaryDiagonal);
 
   return Math.abs(primaryDiagonal - secondaryDiagonal);
 }
 
 function main() {
   const n = parseInt(readLine().trim(), 10);
-  console.log('diagonalDifference :: n ::', n);
-
   const arr = Array(n);
 
   for (let i = 0; i < n; i += 1) {

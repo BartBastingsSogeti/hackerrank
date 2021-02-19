@@ -26,12 +26,10 @@ function main() {
     .replace(/\s+$/g, '')
     .split(' ')
     .map((aTemp) => parseInt(aTemp, 10));
-  console.log('compareTriplets :: lineOne ::', lineOne);
   const lineTwo = readLine()
     .replace(/\s+$/g, '')
     .split(' ')
     .map((bTemp) => parseInt(bTemp, 10));
-  console.log('compareTriplets :: lineOne ::', lineTwo);
 
   return compareTriplets(lineOne, lineTwo);
 }

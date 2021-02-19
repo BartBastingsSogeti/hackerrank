@@ -6,7 +6,10 @@
 // const { mainMiniMaxSum } = require('./challenges/min-max-sum');
 // const { mainBirthdayCakeCandles } = require('./challenges/birthday-cake-candles');
 // const { mainTimeConversion } = require('./challenges/time-conversion');
-const { mainGradingStudents } = require('./challenges/grading-students');
+// const { mainGradingStudents } = require('./challenges/grading-students');
+// const { mainCountApplesAndOranges } = require('./challenges/apple-and-orange');
+// const { mainNumberLineJumps } = require('./challenges/number-line-jumps');
+const { mainBetweenTwoSets } = require('./challenges/between-two-sets');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -16,4 +19,7 @@ const { mainGradingStudents } = require('./challenges/grading-students');
 // mainMiniMaxSum();
 // mainBirthdayCakeCandles();
 // mainTimeConversion();
-mainGradingStudents();
+// mainGradingStudents();
+// mainCountApplesAndOranges();
+// mainNumberLineJumps();
+mainBetweenTwoSets();
