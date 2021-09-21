@@ -9,7 +9,14 @@
 // const { mainGradingStudents } = require('./challenges/grading-students');
 // const { mainCountApplesAndOranges } = require('./challenges/apple-and-orange');
 // const { mainNumberLineJumps } = require('./challenges/number-line-jumps');
-const { mainBetweenTwoSets } = require('./challenges/between-two-sets');
+// const { mainBetweenTwoSets } = require('./challenges/between-two-sets');
+// const { mainSimpleArraySum } = require('./challenges/simple-array-sum');
+// const { mainPlayWithWords } = require('./challenges/play-with-words');
+// const { mainBreakingRecords } = require('./challenges/breaking-the-records');
+// const { mainBirthday } = require('./challenges/birthday');
+// const { mainDivisibleSumPairs } = require('./challenges/divisible-sum-pairs');
+// const { mainMigratoryBirds } = require('./challenges/migratory-birds');
+const { mainDayOfProgrammer } = require('./challenges/day-of-the-programmer');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -22,4 +29,11 @@ const { mainBetweenTwoSets } = require('./challenges/between-two-sets');
 // mainGradingStudents();
 // mainCountApplesAndOranges();
 // mainNumberLineJumps();
-mainBetweenTwoSets();
+// mainBetweenTwoSets();
+// mainSimpleArraySum();
+// mainPlayWithWords();
+// mainBreakingRecords();
+// mainBirthday();
+// mainDivisibleSumPairs();
+// mainMigratoryBirds();
+mainDayOfProgrammer();

@@ -2,12 +2,6 @@ let currentLine = 0;
 const inputString = `2 3
 2 4
 16 32 96`;
-// const inputString = `2 2
-// 2 6
-// 24 36`;
-// const inputString = `2 2
-// 3 4
-// 24 48`;
 
 const inputArray = inputString.split('\n');
 
