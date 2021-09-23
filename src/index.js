@@ -16,7 +16,12 @@
 // const { mainBirthday } = require('./challenges/birthday');
 // const { mainDivisibleSumPairs } = require('./challenges/divisible-sum-pairs');
 // const { mainMigratoryBirds } = require('./challenges/migratory-birds');
-const { mainDayOfProgrammer } = require('./challenges/day-of-the-programmer');
+// const { mainDayOfProgrammer } = require('./challenges/day-of-the-programmer');
+// const { mainBillDivision } = require('./challenges/bill-divsion');
+// const { mainSalesByMatch } = require('./challenges/sales-by-match');
+// const { mainDrawingBook } = require('./challenges/drawing-book');
+// const { mainCountingValleys } = require('./challenges/counting-valleys');
+const { mainElectronicsShop } = require('./challenges/electronics-shop');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -36,4 +41,8 @@ const { mainDayOfProgrammer } = require('./challenges/day-of-the-programmer');
 // mainBirthday();
 // mainDivisibleSumPairs();
 // mainMigratoryBirds();
-mainDayOfProgrammer();
+// mainDayOfProgrammer();
+// mainBillDivision();
+// mainDrawingBook();
+// mainCountingValleys();
+mainElectronicsShop();
