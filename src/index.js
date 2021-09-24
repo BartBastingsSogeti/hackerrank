@@ -21,7 +21,10 @@
 // const { mainSalesByMatch } = require('./challenges/sales-by-match');
 // const { mainDrawingBook } = require('./challenges/drawing-book');
 // const { mainCountingValleys } = require('./challenges/counting-valleys');
-const { mainElectronicsShop } = require('./challenges/electronics-shop');
+// const { mainElectronicsShop } = require('./challenges/electronics-shop');
+// const { mainCatAndMouse } = require('./challenges/cats-and-a-mouse');
+// const { mainFormingMagicSquare } = require('./challenges/forming-a-magic-square');
+const { mainPickingNumbers } = require('./challenges/picking-numbers');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -45,4 +48,7 @@ const { mainElectronicsShop } = require('./challenges/electronics-shop');
 // mainBillDivision();
 // mainDrawingBook();
 // mainCountingValleys();
-mainElectronicsShop();
+// mainElectronicsShop();
+// mainCatAndMouse();
+// mainFormingMagicSquare();
+mainPickingNumbers();
