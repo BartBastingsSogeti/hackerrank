@@ -24,7 +24,8 @@
 // const { mainElectronicsShop } = require('./challenges/electronics-shop');
 // const { mainCatAndMouse } = require('./challenges/cats-and-a-mouse');
 // const { mainFormingMagicSquare } = require('./challenges/forming-a-magic-square');
-const { mainPickingNumbers } = require('./challenges/picking-numbers');
+// const { mainPickingNumbers } = require('./challenges/picking-numbers');
+const { mainClimbingLeaderboard } = require('./challenges/climbing-the-leaderboard');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -51,4 +52,5 @@ const { mainPickingNumbers } = require('./challenges/picking-numbers');
 // mainElectronicsShop();
 // mainCatAndMouse();
 // mainFormingMagicSquare();
-mainPickingNumbers();
+// mainPickingNumbers();
+mainClimbingLeaderboard();
