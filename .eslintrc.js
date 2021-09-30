@@ -5,7 +5,4 @@ module.exports = {
     es6: true,
     node: true,
   },
-  rules: {
-    'max-len': ['warning', { code: 160 }],
-  },
 };

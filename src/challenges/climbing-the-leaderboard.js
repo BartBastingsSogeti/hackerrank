@@ -16,23 +16,22 @@ const binarySearch = (arrScores, findScore, start, end, ranks) => {
     if (findScore > arrScores[start]) {
       // If score is greater than 'start' score
       return (ranks[arrScores[start]] - 1) > 0 ? ranks[arrScores[start]] - 1 : 1;
-    } else if (findScore === arrScores[start]) {
+    } if (findScore === arrScores[start]) {
       // If score is equal to ranking score return the rank
       return ranks[arrScores[start]];
-    } else if (findScore > arrScores[end]) {
+    } if (findScore > arrScores[end]) {
       // If score is greater than ranking score and not in the ranks
       return ranks[arrScores[start]] + 1;
-    } else if (findScore === arrScores[end]) {
+    } if (findScore === arrScores[end]) {
       //
       return ranks[arrScores[end]] === undefined ? ranks[arrScores[end - 1]] : ranks[arrScores[end]];
-    } else {
-      //
-      return ranks[arrScores[end]] === undefined ? ranks[arrScores[end-1]] + 1 : ranks[arrScores[end]] + 1;
     }
+    //
+    return ranks[arrScores[end]] === undefined ? ranks[arrScores[end - 1]] + 1 : ranks[arrScores[end]] + 1;
   }
 
   // Find the middle index
-  const mid =  Math.floor((start + end) / 2);
+  const mid = Math.floor((start + end) / 2);
 
   // Compare mid with given key findScore
   if (arrScores[mid] === findScore) {

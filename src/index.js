@@ -25,7 +25,8 @@
 // const { mainCatAndMouse } = require('./challenges/cats-and-a-mouse');
 // const { mainFormingMagicSquare } = require('./challenges/forming-a-magic-square');
 // const { mainPickingNumbers } = require('./challenges/picking-numbers');
-const { mainClimbingLeaderboard } = require('./challenges/climbing-the-leaderboard');
+// const { mainClimbingLeaderboard } = require('./challenges/climbing-the-leaderboard');
+const { mainHurdleRace } = require('./challenges/the-hurdle-race');
 
 // mainCompareTheTriplets();
 // mainAVeryBigSum();
@@ -53,4 +54,5 @@ const { mainClimbingLeaderboard } = require('./challenges/climbing-the-leaderboa
 // mainCatAndMouse();
 // mainFormingMagicSquare();
 // mainPickingNumbers();
-mainClimbingLeaderboard();
+// mainClimbingLeaderboard();
+mainHurdleRace();
